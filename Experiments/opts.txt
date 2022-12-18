@@ -10,7 +10,7 @@ loadModel >> None
 dropRate >> 0.0
 learningRate >> 0.001
 activations >> relu
-kernelSizes >> 7
+kernelSizes >> 5
 poolStrides >> 2
 numKernels >> 8
 poolPadding >> valid
@@ -21,11 +21,11 @@ strides >> 1
 lossType >> weightedL2Loss
 inputShape >> (512, 512, 1)
 includeInsNormLayer >> False
-numEpochs >> 20
-expDir >> ../experiments/30-12-2017__08-00-14
+numEpochs >> 10
+expDir >> ../experiments/30-12-2017__10-10-44
 insNormAxis >> None
 verbosity >> 1
 ext >> ['png', 'jpg']
 numScales >> 5
 batchSize >> 64
-logDir >> 30-12-2017__08-00-14
+logDir >> 30-12-2017__10-10-44
